@@ -88,8 +88,8 @@
 
 
 Name:    slurm
-Version: 15.08.7
-Release: 3%{?dist}
+Version: 15.08.8
+Release: 1%{?dist}
 
 Summary: Slurm Workload Manager
 
@@ -650,7 +650,7 @@ Cflags: -I\${includedir}
 Libs: -L\${libdir} -lslurm
 Description: Slurm API
 Name: slurm
-Version: 15.08.7
+Version: 15.08.8
 EOF
 
 %if %{slurm_with bluegene}
@@ -1149,6 +1149,9 @@ fi
 
 
 %changelog
+* Sat Feb 13 2016 Adam Huffman <verdurin@fedoraproject.org>
+- new package built with tito
+
 * Sat Feb 13 2016 Adam Huffman <bloch@verdurin.com> - 15.08.7-3
 - plugin linking fix, with help from Nenad Vukicevic
 
