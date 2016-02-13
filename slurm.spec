@@ -1149,7 +1149,7 @@ fi
 
 
 %changelog
-* Sat Feb 13 2016 Adam Huffman <bloch@verdurin.com> - 15.08.7-3
+* Sat Feb 13 2016 Adam Huffman 15.08.7-3
 - plugin linking fix, with help from Nenad Vukicevic
 
 * Sat Feb 06 2016 Adam Huffman <bloch@verdurin.com> - 15.08.7-2
