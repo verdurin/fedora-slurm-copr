@@ -88,8 +88,8 @@
 
 
 Name:    slurm
-Version: 15.08.8
-Release: 1%{?dist}
+Version: 15.08.7
+Release: 3%{?dist}
 
 Summary: Slurm Workload Manager
 
@@ -1149,9 +1149,6 @@ fi
 
 
 %changelog
-* Sat Feb 13 2016 Adam Huffman <verdurin@fedoraproject.org>
-- new package built with tito
-
 * Sat Feb 13 2016 Adam Huffman <bloch@verdurin.com> - 15.08.7-3
 - plugin linking fix, with help from Nenad Vukicevic
 
