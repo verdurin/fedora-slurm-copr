@@ -1,0 +1,12 @@
+diff -ur slurm-15.08.7/slurm.spec slurm-15.08.7.new/slurm.spec
+--- slurm-15.08.7/slurm.spec	2016-01-20 21:56:14.000000000 +0000
++++ slurm-15.08.7.new/slurm.spec	2016-02-06 23:46:47.486907866 +0000
+@@ -885,7 +885,7 @@
+ %endif
+ #############################################################################
+ 
+-%files -f perlapi.files perlapi
++%files perlapi
+ %defattr(-,root,root)
+ %{_perldir}/Slurm.pm
+ %{_perldir}/Slurm/Bitstr.pm
